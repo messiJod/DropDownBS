@@ -1,0 +1,40 @@
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.custom_dd_menu {
+  min-width: 100% !important;
+  border-radius: 10px;
+}
+
+.dd-items {
+  cursor: pointer;
+}
+
+#total_sales {
+  font-size: 1em;
+  padding: 8px 16px;
+  border: 1px solid rgb(202 43 111);
+  border-radius: 10px;
+  background-color: rgb(202 43 111);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+#total_sales:hover {
+  color: rgb(202 43 111);
+  background-color: white;
+  border: 1px solid rgb(203 44 112);
+}
+
+.custom_dd_menu > .dropdown-item:active {
+  background-color: #ca2b6f;
+}
+
+.my_new_active {
+    color:white;
+  background-color: #ca2b6f !important;
+}
